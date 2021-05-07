@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+/* Start Common CSS */
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Roboto', sans-serif;
+}
+/* End Common CSS */
+
+/* Start Navbar Section */
+.navbar-toggler-icon{
+    color: white;
+    font-size: 30px;
+}
+.navbar-brand img{
+    width: 80px;
+    height: 80px;
+}
+.header{
+    background-image: url("/image/banner-photo.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navbar{
+    padding: 0 10px;
+    background: rgba(0, 0, 0, 0.3);
+}
+.nav-link{
+    color: white;
+    border-radius: 5px;
+    margin: 10px;
+    transition: .4s;
+    font-weight: 600;
+    font-size:18px ;
+}
+.nav-link:hover{
+    color: white;
+    background-color:#f58634;
+    transform: scale(1.1);
+}
+/* End Nav bar Section */
+
+/* Start Banner Section */
+.banner-container{
+    height: 85vh;
+}
+.banner-container h1{
+    font-size:  3.5em;
+    background-color: rgba(3, 114, 36, 0.6);
+    color: white;
+    padding: 15px 25px;
+    font-family: 'Handlee', cursive;
+    border-radius: 5px;
+}
+button.btn{
+    background-color: #f58634;
+}
+button.btn:hover{
+    background-color: #bd5a13 ;
+}
+/* End Banner Section */
+/* Start Future Section */
+#feature{
+    background: #206a5d;
+    padding: 5% 15%;
+}
+.icon-style{
+    background: #f58634;
+    padding: 15px;
+    margin: 10px 0;
+
+}
+.feature-container{
+    padding: 15px;
+    border: 2px solid #f58634;
+    border-radius: 5px;
+    margin: 20px 0;
+    transition: .4s;
+}
+.feature-container:hover{
+    transform: scale(1.1);
+    box-shadow: 2px 6px 5px rgb(0, 0, 0);
+}
+/* End Future Section */
+
+
+
+/* Start About Section */
+#about-section{
+    padding: 4% 10%;
+    background: #206a5d;
+    
+}
+
+.about-tittle{
+    position: relative;
+    margin-top: 30px;
+    color: white;
+}
+#about-section a{
+    font-size: 0.9rem;
+    font-weight: lighter;
+    text-decoration: underline;
+    color: rgb(255, 255, 255) ;
+}
+
+.star{
+    width: 20px;
+    margin-left: 20px;
+}
+
+
+/* End About Section */
+/* Start Tutorial Section */
+#tutorial{
+    padding: 5% 10%;
+    background: #43AA8B;
+   
+}
+.card{
+    border: 1px solid #f58634;
+}
+.card{
+    padding: 15px;
+    border: 2px solid #206a5d !important;
+    border-radius: 5px;
+    margin: 20px 0;
+    transition: .4s;
+}
+.card:hover{
+    transform: scale(1.1);
+    box-shadow: 2px 6px 5px rgb(0, 0, 0);
+}
+/* End Tutorial Section */
+
+
+/* Start Feedback Section */
+#feedback{
+    background: #206a5d;
+    padding: 7% 10%;
+}
+.carousel-item{
+    padding: 5% 15%;
+    text-align: center;
+    font-style: italic;
+}
+.feedback-img{
+    width: 120px;
+    height: auto;
+}
+.carousel-indicators{
+    bottom: -20px;
+}
+ h3{
+    color: rgb(255, 255, 255);
+}
+.carousel-item{
+    color: rgb(255, 255, 255);
+}
+button{
+    color: rgb(255, 255, 255);
+}
+
+/* End Feedback Section */
+
+/* Start Contact Section */
+
+textarea{
+    height: 150px;
+}
+
+
+.contact-section{
+    background: #81b214;
+}
+
+/* End Contact Section */
+/* Footer Start */
+footer{
+    padding: 1% 10%;
+    background: #206a5d;
+    color: white;
+}
+footer a{
+    color: white;
+    margin: 0 10px;
+}
+footer a:hover{
+    color: #81b214;
+}
+
+
+@media (max-width:768px ){
+    .nav-link{
+        background: rgba(0, 0, 0, 0.7);
+    }
+    
+}
